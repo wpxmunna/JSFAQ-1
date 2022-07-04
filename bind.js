@@ -19,6 +19,7 @@ const friendlyPerson = {
     lastName: 'Mia',
     salary: 20000,
 }
+
 const heroPersonChargeBill = normalPerson.chargeBill.bind(heroPerson);
 heroPersonChargeBill(2100);
 console.log(heroPerson.salary);
