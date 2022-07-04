@@ -11,4 +11,4 @@ console.log(9874);
 
 setInterval(() => {
     console.log('Doing it..');
-}, 1000);
+}, 10000);
